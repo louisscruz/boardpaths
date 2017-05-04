@@ -26,6 +26,13 @@ class BoardPathSpec extends FunSpec {
         assert(naivePaths(x, y) === el._2)
       }
     }
+
+    expectedOutputs foreach { el =>
+      val (x, y) = el._1
+      it("returns the same answer for (" + x + ", " + y + ") as (" + y + ", " + x + ")") {
+        assert(naivePaths(x, y) === naivePaths(y, x))
+      }
+    }
   }
 
   describe("dynamicPaths") {
@@ -42,6 +49,13 @@ class BoardPathSpec extends FunSpec {
       val (x, y) = el._1
       it("returns the correct answer given an input of (" + x + ", " + y + ")") {
         assert(dynamicPaths(x, y) === el._2)
+      }
+    }
+
+    expectedOutputs foreach { el =>
+      val (x, y) = el._1
+      it("returns the same answer for (" + x + ", " + y + ") as (" + y + ", " + x + ")") {
+        assert(dynamicPaths(x, y) === dynamicPaths(y, x))
       }
     }
   }
@@ -62,6 +76,13 @@ class BoardPathSpec extends FunSpec {
         assert(formulaPaths(x, y) === el._2)
       }
     }
+
+    expectedOutputs foreach { el =>
+      val (x, y) = el._1
+      it("returns the same answer for (" + x + ", " + y + ") as (" + y + ", " + x + ")") {
+        assert(formulaPaths(x, y) === formulaPaths(y, x))
+      }
+    }
   }
 
   describe("naiveDiagonalPaths") {
@@ -78,6 +99,13 @@ class BoardPathSpec extends FunSpec {
       val (x, y) = el._1
       it("returns the correct answer given an input of (" + x + ", " + y + ")") {
         assert(naiveDiagonalPaths(x, y) === el._2)
+      }
+    }
+
+    expectedOutputs foreach { el =>
+      val (x, y) = el._1
+      it("returns the same answer for (" + x + ", " + y + ") as (" + y + ", " + x + ")") {
+        assert(naiveDiagonalPaths(x, y) === naiveDiagonalPaths(y, x))
       }
     }
   }
@@ -98,6 +126,13 @@ class BoardPathSpec extends FunSpec {
         assert(dynamicDiagonalPaths(x, y) === el._2)
       }
     }
+
+    expectedDiagonalOutputs foreach { el =>
+      val (x, y) = el._1
+      it("returns the same answer for (" + x + ", " + y + ") as (" + y + ", " + x + ")") {
+        assert(dynamicDiagonalPaths(x, y) === dynamicDiagonalPaths(y, x))
+      }
+    }
   }
 
   describe("formulaDiagonalPaths") {
@@ -114,6 +149,13 @@ class BoardPathSpec extends FunSpec {
       val (x, y) = el._1
       it("returns the correct answer given an input of (" + x + ", " + y + ")") {
         assert(formulaDiagonalPaths(x, y) === el._2)
+      }
+    }
+
+    expectedDiagonalOutputs foreach { el =>
+      val (x, y) = el._1
+      it("returns the same answer for (" + x + ", " + y + ") as (" + y + ", " + x + ")") {
+        assert(formulaDiagonalPaths(x, y) === formulaDiagonalPaths(y, x))
       }
     }
   }
