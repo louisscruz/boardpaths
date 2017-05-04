@@ -1,6 +1,7 @@
 [debug] Other repositories:
 [debug] Default repositories:
 [debug] Using inline dependencies specified in Scala.
+[debug] no default cache defined: set to /Users/louiscruz/.ivy2/cache
 [debug] :: resolving dependencies :: default#boardpaths$sbt_2.10;1.0
 [debug] 	confs: [default]
 [debug] 	validate = true
@@ -1778,9 +1779,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.15!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar
-[debug] :: resolution report :: resolve 374ms :: artifacts dl 18ms
-[debug] 	report for default#boardpaths$sbt_2.10;1.0 default produced in /Users/louisstephancruz/Desktop/boardpaths/target/resolution-cache/reports/default-boardpaths$sbt_2.10-default.xml
-[debug] 	resolve done (374ms resolve - 18ms download)
+[debug] :: resolution report :: resolve 766ms :: artifacts dl 27ms
+[debug] 	report for default#boardpaths$sbt_2.10;1.0 default produced in /Users/louiscruz/Desktop/boardpaths/target/resolution-cache/reports/default-boardpaths$sbt_2.10-default.xml
+[debug] 	resolve done (766ms resolve - 27ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: default#boardpaths$sources_2.10;1.0
 [debug] 	confs: [default]
@@ -2458,6 +2459,6 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#incremental-compiler;0.13.15!incremental-compiler.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#logic;0.13.15!logic.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-sbt#main-settings;0.13.15!main-settings.jar(src)
-[debug] :: resolution report :: resolve 121ms :: artifacts dl 27ms
-[debug] 	report for default#boardpaths$sources_2.10;1.0 default produced in /Users/louisstephancruz/Desktop/boardpaths/target/resolution-cache/reports/default-boardpaths$sources_2.10-default.xml
-[debug] 	resolve done (121ms resolve - 27ms download)
+[debug] :: resolution report :: resolve 214ms :: artifacts dl 29ms
+[debug] 	report for default#boardpaths$sources_2.10;1.0 default produced in /Users/louiscruz/Desktop/boardpaths/target/resolution-cache/reports/default-boardpaths$sources_2.10-default.xml
+[debug] 	resolve done (214ms resolve - 29ms download)

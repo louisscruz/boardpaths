@@ -4,7 +4,7 @@
 		module="boardpaths-build"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20170424143908"
+		publication="20170503125511"
 		e:sbtVersion="0.13" e:scalaVersion="2.10"
 	>
 		<description>
