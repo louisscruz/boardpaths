@@ -32,4 +32,4 @@ The tests cover:
 
 The tests are located [here][tests].
 
-[tests]: ./src/test/scala-2.12/BoardPathSpec
+[tests]: ./src/test/scala-2.12/BoardPathSpec.scala
